@@ -34,7 +34,7 @@ Objectives
 
 Follow the Step by Step instructions below:
 
-1. Open the `styles.css` file.
+1. Set up a Bitcoin Ordinals wallet `(e.g., Xverse)`.
 
 2. Add a CSS rule for the `body` element that sets the background color to `#E0E0E2`.
 
