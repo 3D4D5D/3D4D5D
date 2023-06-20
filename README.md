@@ -2,7 +2,7 @@
 
 ## Follow the Step by Step instructions below:
 
-1. Set up a Bitcoin Ordinals wallet `(e.g. Unisat)`.
+1. Set up a Bitcoin Ordinals wallet `(e.g. Unisat, ordinalswallet, ...)`.
 
 2. Choose the block you wish to inscribe and enter the block number in the format `(e.g. #.mapi)`.
    
