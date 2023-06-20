@@ -50,6 +50,9 @@ Follow the Step by Step instructions below:
   "relay": "85b10531435304cbe47d268106b58b57a4416c76573d4b50fa544432597ad670i0"
 }
 
+<img width="635" alt="Screen Shot 2023-06-20 at 2 23 57 PM" src="https://github.com/3D4D5D/3D4D5D/assets/130207760/b51726c2-9b57-48f4-8021-d9a21e1d3374">
+
+
 6. Add a CSS rule for the `h2` element that sets the text color to: `#721817`.  
 
 7. Add a CSS rule for the `center-text` CSS class that aligns the text to `center`.
