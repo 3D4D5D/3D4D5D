@@ -33,7 +33,7 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A-->B;
+    Create wallet-->B;
     A-->C;
     B-->D;
     C-->D;
