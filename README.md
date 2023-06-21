@@ -27,3 +27,15 @@
 
 <img width="635" alt="Screen Shot 2023-06-20 at 2 23 57 PM" src="https://github.com/3D4D5D/3D4D5D/assets/130207760/b51726c2-9b57-48f4-8021-d9a21e1d3374">
 
+<br>
+
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
