@@ -21,8 +21,9 @@ graph TD
     A[Set up a Wallet] -->|Fund your wallet| B{Friday?}
     B --> C(Choose a block)
     B --> D(Get your inscription ID)
-    C --> E(Pay and inscribe) 
-    D --> E
+    C --> E(<img width="635" alt="Screen Shot 2023-06-20 at 2 23 57 PM" src="https://github.com/3D4D5D/3D4D5D/assets/130207760/5eeccc79-1b79-47a9-b179-511dfaabd1cd">
+Pay and inscribe) 
+    D --> E 
     E --> F[Pay for the inscription]
 
   end
