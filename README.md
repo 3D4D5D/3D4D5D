@@ -22,7 +22,7 @@ graph TD;
     3-->4;
 ```
 
-
+```mermaid
 graph TD
   subgraph Deploy Process
     A[Deploy to production] -->|Is it Friday?| B{Friday?}
@@ -37,6 +37,9 @@ graph TD
   style C fill:#ffcccc,stroke:#333333,stroke-width:2px
   style D fill:#ccffcc,stroke:#333333,stroke-width:2px
   style E fill:#ffffff,stroke:#333333,stroke-width:2px,stroke-dasharray: 5,5
+
+```
+
 
 
 { 
