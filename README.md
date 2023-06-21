@@ -14,6 +14,13 @@
    
 <br>
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 { 
   "p": "sns",
@@ -29,13 +36,5 @@
 
 <br>
 
-Here is a simple flow chart:
 
-```mermaid
-graph TD;
-    Create wallet-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
 
