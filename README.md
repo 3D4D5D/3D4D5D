@@ -22,6 +22,7 @@ graph TD
     B --> C(Choose a block)
     B --> D(Get your inscription ID)
     C --> E[Pay for the inscription]
+    C --> E[Pay for the inscription]
     D --> E
   end
 
