@@ -23,14 +23,20 @@ graph TD;
 ```
 
 
-```mermaid
-flowchart TD
-A[Deploy to production]  -› B{Is it Friday?};
-B -- Yes --› C[Do not deploy!];
-B -- No --› D[Run deploy.sh to deploy!];
-C ----› E[Enjoy your weekend!];
-D ----› E[Enjoy your weekend!];
-```
+graph TD
+  subgraph Deploy Process
+    A[Deploy to production] -->|Is it Friday?| B{Friday?}
+    B -- Yes --> C(Do not deploy!)
+    B -- No --> D(Run deploy.sh to deploy!)
+    C --> E[Enjoy your weekend!]
+    D --> E
+  end
+
+  style A fill:#ffffff,stroke:#333333,stroke-width:2px
+  style B fill:#ffffff,stroke:#333333,stroke-width:2px
+  style C fill:#ffcccc,stroke:#333333,stroke-width:2px
+  style D fill:#ccffcc,stroke:#333333,stroke-width:2px
+  style E fill:#ffffff,stroke:#333333,stroke-width:2px,stroke-dasharray: 5,5
 
 
 { 
