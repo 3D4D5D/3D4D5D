@@ -32,12 +32,6 @@ graph TD
     D --> E
   end
 
-  style A fill:#ffffff,stroke:#333333,stroke-width:2px
-  style B fill:#ffffff,stroke:#333333,stroke-width:2px
-  style C fill:#ffcccc,stroke:#333333,stroke-width:2px
-  style D fill:#ccffcc,stroke:#333333,stroke-width:2px
-  style E fill:#ffffff,stroke:#333333,stroke-width:2px,stroke-dasharray: 5,5
-
 ```
 
 
