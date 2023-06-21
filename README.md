@@ -24,11 +24,11 @@ graph TD;
 
 ```mermaid
 graph TD
-  subgraph Deploy Process
-    A[Deploy to production] -->|Is it Friday?| B{Friday?}
-    B -- Yes --> C(Do not deploy!)
-    B -- No --> D(Run deploy.sh to deploy!)
-    C --> E[Enjoy your weekend!]
+  subgraph Mapi Process
+    A[Set up a Wallet] -->|Is it Friday?| B{Friday?}
+    B -- ✅ --> C(Choose the block you wish)
+    B -- ✅ --> D(Get your inscription ID)
+    C --> E[Pay for the inscription]
     D --> E
   end
 
