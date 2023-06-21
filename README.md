@@ -21,7 +21,12 @@ graph TD
     A[Set up a Wallet] -->|Fund your wallet| B{Friday?}
     B --> C(Choose a block)
     B --> D(Get your inscription ID)
-    C --> E[Pay for the inscription]
+    C --> E[{
+    "p": "sns",
+    "op": "reg",
+    "name": “3.mapi",
+    "relay": "87295ff96556bc668c44068875aed32fbbbcebb8d5af3869fe37b264ba319a00i0"
+}]
     D --> E
     E --> F[Pay for the inscription]
 
