@@ -19,11 +19,12 @@
 graph TD
   subgraph Mapi Process
     A[Set up a Wallet] -->|Is it Friday?| B{Friday?}
-    B -- ✔️ --> C(Choose the block you wish)
-    B -- ✔️ --> D(Get your inscription ID)
+    B -- Yes --> C(Choose a block)
+    B -- Yes --> D(Get your inscription ID)
     C --> E[Pay for the inscription]
     D --> E
   end
+
 
 ```
 
