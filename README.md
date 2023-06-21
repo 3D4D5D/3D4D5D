@@ -14,20 +14,13 @@
    
 <br>
 
-```mermaid
-graph TD;
-    1-->2;
-    1-->3;
-    2-->4;
-    3-->4;
-```
 
 ```mermaid
 graph TD
   subgraph Mapi Process
     A[Set up a Wallet] -->|Is it Friday?| B{Friday?}
-    B -- ✅ --> C(Choose the block you wish)
-    B -- ✅ --> D(Get your inscription ID)
+    B -- ✓ --> C(Choose the block you wish)
+    B -- ✓ --> D(Get your inscription ID)
     C --> E[Pay for the inscription]
     D --> E
   end
