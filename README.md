@@ -18,7 +18,7 @@
 ```mermaid
 graph TD
   subgraph Mapi Process
-    A[Set up a Wallet] -->|Is it Friday?| B{Friday?}
+    A[Set up a Wallet] -->|Fund your wallet| B{Friday?}
     B --> C(Choose a block)
     B --> D(Get your inscription ID)
     C --> E[Pay for the inscription]
