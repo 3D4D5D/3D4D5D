@@ -4,7 +4,7 @@
 
 1. Set up a Bitcoin Ordinals wallet `(e.g. Unisat, ordinalswallet, ...)`.
 
-2. Choose the block you wish to inscribe and enter the block number in the format `(e.g. 1.mapi)`.
+2. Choose the block you wish to inscribe and enter the block number in the format `(e.g. 3.mapi)`.
    
 4. Specify your inscription ID `("relay")`.
 
